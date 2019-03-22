@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="referrer" content="no-referrer" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="mui-bar mui-bar-nav header">
+            <h1 class="mui-title">电影</h1>
+        </header>
+        <div class="mui-content">
+            <div class="mui-input-row mui-search">
+                <input type="search" class="mui-input-clear" placeholder="请输入电影名" id="search">
+            </div>
+            <div class="main">
+                <ul class="tab">
+                    <li class="active" data-index="1">正在热映</li>
+                    <li data-index="2">即将上映</li>
+                    <li data-index="3">Top250</li>
+                </ul>
+				<div id="#pullrefresh" class="mui-content mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<!--数据列表-->
+						<ul class="mui-table-view mui-table-view-chevron pullList">
+					
+					</ul>
+						<!-- <div class="content">
+						    <dl>
+						        <dt>
+						                <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2548870813.jpg" >
+						            </dt>
+						        <dd>
+						            <p>作品</p>
+						            <p>类型</p>
+						            <p>导演</p>
+						            <p>演员</p>
+						            <p>年份</p>
+						        </dd>
+						        <div class="average">
+						            <span>9.2</span>
+						        </div>
+						    </dl>
+						</div> -->
+					</div>
+				</div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="js/libs/require.js" charset="utf-8" data-main="js/index.js"></script>
+</body>
+
+</html>

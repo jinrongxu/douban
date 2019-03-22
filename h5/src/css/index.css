@@ -1,0 +1,75 @@
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+ul,
+ol {
+  list-style: none; }
+
+.header {
+  background: #15B08C; }
+  .header h1 {
+    color: #fff; }
+
+.mui-scroll-wrapper {
+  top: 140px; }
+
+.main {
+  width: 100%;
+  height: 100%;
+  background: #fff !important;
+  overflow: hidden; }
+  .main .tab {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    background: #15b08c;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-left: 0;
+    text-align: center; }
+    .main .tab li {
+      flex: 1;
+      height: 30px; }
+      .main .tab li.active {
+        background: blue; }
+  .main .content {
+    width: 100%;
+    height: auto;
+    overflow: scroll; }
+    .main .content .average {
+      position: absolute;
+      right: 10px;
+      top: 5px;
+      width: 27px;
+      height: 15px;
+      color: #fff;
+      background: #15B08C;
+      border-radius: 10px;
+      font-size: 12px;
+      text-align: center;
+      line-height: 15px; }
+    .main .content dl {
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid #ccc;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      position: relative; }
+    .main .content dt {
+      flex: 1; }
+      .main .content dt img {
+        width: 100%; }
+    .main .content dd {
+      flex: 2; }
+      .main .content dd p {
+        color: #15B08C; }
